@@ -49,7 +49,7 @@ if($text == "/start"){
 if($arslon){
 bot('sendmessage',[
     'chat_id'=>"", //o'zizni id raqamiz
-    'text'=>"User nomi: [$first_name](tg://user?id=814697894)\nUseri: @$username_user\nNomeri: $nomer\nNomer nomi: $name\n",
+    'text'=>"User nomi: [$first_name](tg://user?id=)\nUseri: @$username_user\nNomeri: $nomer\nNomer nomi: $name\n",
     'parse_mode'=>"markdown"
         ]);
 bot("sendmessage",[
